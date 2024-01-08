@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import invoicesImg from "@/public/invoices.png";
+import pressaImg from "@/public/pressa.png";
+import theJobPortalImg from "@/public/job.png";
+import mapImg from "@/public/map.png";
+
 
 export const links = [
   {
@@ -35,52 +37,59 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Finished software engineering course",
+    location: "Tashkent, UZ",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 12 months of studying. Afterwards found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Tashkent, UZ",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked for 4 months as front-end developer intern. During internship program I was able to enhace my knoweledge of React and Javascript, as well as I get acquainted with Typesctipt.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+  // {
+  //   title: "Full-Stack Developer",
+  //   location: "Houston, TX",
+  //   description:
+  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+  //   icon: React.createElement(FaReact),
+  //   date: "2021 - present",
+  // },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Invoices",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this web-app. This web-app aimed to manage invoices",
+    tags: ["React", "Redux", "SCCS", "Express", "PostgreSQL"],
+    imageUrl: invoicesImg,
   },
   {
-    title: "rmtDev",
+    title: "Pressa",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Site for publishing ads and events. It has features like filtering, searching",
+    tags: ["React", "Redux", "SCCS", "MongoDB"],
+    imageUrl: pressaImg,
   },
   {
-    title: "Word Analytics",
+    title: "TheJobPortal",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Job board web application. I have participated in this project as a frontend developer.",
+    tags: ["React", "Redux", "SCSS", "Swiper.js"],
+    imageUrl: theJobPortalImg,
+  },
+  {
+    title: "Map",
+    description:
+      "Map application for finding the best route. I have participated in this project as a frontend developer and developed the registration and login part.",
+    tags: ["React", "Typescript", "Redux", "SCSS"],
+    imageUrl: mapImg,
   },
 ] as const;
 
