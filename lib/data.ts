@@ -6,6 +6,7 @@ import invoicesImg from "@/public/invoices.png";
 import pressaImg from "@/public/pressa.png";
 import theJobPortalImg from "@/public/job.png";
 import mapImg from "@/public/map.png";
+import residenceImg from "@/public/residence.png";
 
 
 export const links = [
@@ -82,6 +83,13 @@ export const projectsData = [
       "Map application for finding the best route. I have participated in this project as a frontend developer and developed the registration and login part.",
     tags: ["React", "Typescript", "Redux", "SCSS"],
     imageUrl: mapImg,
+  },
+  {
+    title: "Residence",
+    description:
+      "A website that offers customers the opportunity to view residences and their surroundings through a 360-degree perspective typically incorporates advanced imaging technology and user-friendly interfaces. ",
+    tags: ["HTML", "SCSS", "JS", "Gulp", "GSAP", "Photo-sphere-viewer"],
+    imageUrl: residenceImg,
   },
 ] as const;
 

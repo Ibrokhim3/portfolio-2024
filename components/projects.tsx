@@ -1,6 +1,5 @@
 "use client";
 
-
 import React from "react";
 import SectionHeading from "./section-heading";
 import { projectsData } from "@/lib/data";
@@ -19,6 +18,13 @@ export default function Projects() {
             <Project {...project} />
           </React.Fragment>
         ))}
+        <a
+          className="underline"
+          target="_blank"
+          href="https://portfolio-ibrokhim.netlify.app/"
+        >
+          See my other projects through this link
+        </a>
       </div>
     </section>
   );
