@@ -2,12 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import invoicesImg from "@/public/invoices.png";
-import pressaImg from "@/public/pressa.png";
-import theJobPortalImg from "@/public/job.png";
-import mapImg from "@/public/map.png";
+import brightImg from "@/public/bright.png";
+import ltfsImg from "@/public/ltfs.png";
+import SMLimg from "@/public/sml.png";
 import residenceImg from "@/public/residence.png";
-
 
 export const links = [
   {
@@ -53,41 +51,48 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
+  {
+    title: "Front-End Developer",
+    location: "Tashkent, UZ",
+    description:
+      "In my current role, I have gained extensive experience in building real-world applications, enhancing my expertise in technologies like Next.js, React, and JavaScript. I have also acquired new skills, including working with Ant Design (antd), Tailwind CSS, Next.js Internationalization (next-intl), NextAuth, and implementing Feature-Sliced Design (FSD) architecture.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024",
+  },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Invoices",
+    title: "Bright Gallery",
     description:
-      "I worked as a full-stack developer on this web-app. This web-app aimed to manage invoices",
-    tags: ["React", "Redux", "SCCS", "Express", "PostgreSQL"],
-    imageUrl: invoicesImg,
+      "Developed an e-commerce platform for selling art, featuring secure online payment integration and a user-friendly interface.",
+    tags: [
+      "NextJs",
+      "Tailwind",
+      "NextIntl",
+      "NextAuth",
+      "Typescript",
+      "SwiperJS",
+    ],
+    imageUrl: brightImg,
   },
   {
-    title: "Pressa",
+    title: "LTFS",
     description:
-      "Site for publishing ads and events. It has features like filtering, searching",
-    tags: ["React", "Redux", "SCCS", "MongoDB"],
-    imageUrl: pressaImg,
+      "Developed a commercial website featuring smooth, light animations to enhance user engagement.",
+    tags: ["NextJs", "Tailwind", "NextIntl", "Typescript"],
+    imageUrl: ltfsImg,
   },
   {
-    title: "TheJobPortal",
-    description:
-      "Job board web application. I have participated in this project as a frontend developer.",
-    tags: ["React", "Redux", "SCSS", "Swiper.js"],
-    imageUrl: theJobPortalImg,
-  },
-  {
-    title: "Map",
-    description:
-      "Map application for finding the best route. I have participated in this project as a frontend developer and developed the registration and login part.",
-    tags: ["React", "Typescript", "Redux", "SCSS"],
-    imageUrl: mapImg,
+    title: "SML",
+    description: "Developed a commercial website showcasing packaging products",
+    tags: ["NextJs", "Tailwind", "Typescript"],
+    imageUrl: SMLimg,
   },
   {
     title: "Residence",
     description:
-      "A website that offers customers the opportunity to view residences and their surroundings through a 360-degree perspective typically incorporates advanced imaging technology and user-friendly interfaces. ",
+      "A website that offers the opportunity to view residences through a 360-degree perspective typically incorporates advanced imaging technology",
     tags: ["HTML", "SCSS", "JS", "Gulp", "GSAP", "Photo-sphere-viewer"],
     imageUrl: residenceImg,
   },
@@ -103,7 +108,8 @@ export const skillsData = [
   "Next.js",
   "Git",
   "Tailwind",
-  "Redux",
+  "Redux Toolkit",
+  "Rtk-query",
+  "Antd",
   "Framer Motion",
-  "Node.js",
 ] as const;
