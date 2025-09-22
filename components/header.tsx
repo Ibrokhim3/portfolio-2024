@@ -12,6 +12,7 @@ export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
   const pathname = usePathname();
+  //header
 
   return (
     <header
