@@ -7,6 +7,14 @@ import ltfsImg from "@/public/ltfs.png";
 import SMLimg from "@/public/sml.png";
 import residenceImg from "@/public/residence.png";
 import ziyolilarImg from "@/public/ziyolilar.png";
+import safiaImg from "@/public/safia.png";
+import jgsImg from "@/public/jgs.png";
+import mebelHouseImg from "@/public/mebelhouse.png";
+import fenixProImg from "@/public/fenix.png";
+import mapImg from "@/public/map.png";
+import scootImg from "@/public/scoot.png";
+import coffeeImg from "@/public/coffee.png";
+import placeholderImg from "@/public/placeholder.jpg";
 
 export const links = [
   {
@@ -77,6 +85,7 @@ export const projectsData = [
       "NextAuth",
     ],
     imageUrl: ziyolilarImg,
+    link: "https://ziyolilar.com",
   },
   {
     title: "Bright Gallery",
@@ -91,6 +100,7 @@ export const projectsData = [
       "SwiperJS",
     ],
     imageUrl: brightImg,
+    link: "https://brightgalleryuz.com",
   },
   {
     title: "LTFS",
@@ -98,12 +108,14 @@ export const projectsData = [
       "Developed a commercial website featuring smooth, light animations to enhance user engagement.",
     tags: ["NextJs", "Tailwind", "NextIntl", "Typescript"],
     imageUrl: ltfsImg,
+    link: "https://ltfsuz.com",
   },
   {
     title: "SML",
     description: "Developed a commercial website showcasing packaging products",
     tags: ["NextJs", "Tailwind", "Typescript"],
     imageUrl: SMLimg,
+    link: "https://sml.uz",
   },
   {
     title: "Residence",
@@ -111,6 +123,72 @@ export const projectsData = [
       "A website that offers the opportunity to view residences through a 360-degree perspective typically incorporates advanced imaging technology",
     tags: ["HTML", "SCSS", "JS", "Gulp", "GSAP", "Photo-sphere-viewer"],
     imageUrl: residenceImg,
+    link: "https://ritz-residence.vercel.app",
+  },
+  {
+    title: "Safia Bakery ERP",
+    description:
+      "ERP System with IIKO/Mindbox integration for coffee and refreshments distribution",
+    tags: ["React", "Antd", "Typescript", "Redux Toolkit", "Rtk-query"],
+    imageUrl: safiaImg,
+    link: "",
+  },
+  {
+    title: "JGS mini app and CRM",
+    description: "Order Management CRM with Telegram mini app integration",
+    tags: ["React", "Vite", "Typescript", "Tailwind"],
+    imageUrl: jgsImg,
+    link: "",
+  },
+  {
+    title: "Mebel House ERP",
+    description: "Retail ERP for inventory, sales, and customer management",
+    tags: ["React", "Vite", "Typescript"],
+    imageUrl: mebelHouseImg,
+    link: "",
+  },
+  {
+    title: "Elisof Manufactory",
+    description:
+      "Manufacturing ERP with supply chain and multi-department workflows",
+    tags: ["React", "Vite", "Typescript"],
+    imageUrl: placeholderImg,
+    link: "",
+  },
+  {
+    title: "SmartLife",
+    description: "Multi-User Dashboard for Service Installation Payments",
+    tags: ["React", "Vite", "Typescript"],
+    imageUrl: placeholderImg,
+    link: "",
+  },
+  {
+    title: "Fenix Pro ERP",
+    description: "Admin dashboard for grocery store management",
+    tags: ["React", "NextJS", "Typescript", "Tailwind"],
+    imageUrl: fenixProImg,
+    link: "",
+  },
+  {
+    title: "Map",
+    description: "Route optimization engine with interactive mapping interface",
+    tags: ["React", "Vite", "Typescript", "SCSS", "Axios"],
+    imageUrl: mapImg,
+    link: "https://hoca-map.netlify.app",
+  },
+  {
+    title: "Scoot",
+    description: "Scoot sharing landing",
+    tags: ["HTML", "SCSS"],
+    imageUrl: scootImg,
+    link: "https://scoot-ibrokhim.netlify.app",
+  },
+  {
+    title: "Coffee",
+    description: "Coffee landing",
+    tags: ["HTML", "SCSS"],
+    imageUrl: coffeeImg,
+    link: "https://coffee-ibrokhim.netlify.app",
   },
 ] as const;
 
