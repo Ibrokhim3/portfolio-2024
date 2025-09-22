@@ -3,14 +3,11 @@ import { SectionName } from "./types";
 import { useActiveSectionContext } from "@/context/active-session-context";
 import { useEffect } from "react";
 
-
-
-export function useSectionInView(sectionName: SectionName, threshold = 0.75){
+export function useSectionInView(sectionName: SectionName, threshold = 0.75) {
   const { ref, inView } = useInView({
-    threshold
+    threshold,
   });
   const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
-
   useEffect(() => {
     if (inView && Date.now() - timeOfLastClick > 1000) {
       setActiveSection(sectionName);
@@ -18,6 +15,6 @@ export function useSectionInView(sectionName: SectionName, threshold = 0.75){
   }, [inView, setActiveSection, timeOfLastClick, sectionName]);
 
   return {
-    ref
-  }
+    ref,
+  };
 }

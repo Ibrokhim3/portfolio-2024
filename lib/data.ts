@@ -6,6 +6,7 @@ import brightImg from "@/public/bright.png";
 import ltfsImg from "@/public/ltfs.png";
 import SMLimg from "@/public/sml.png";
 import residenceImg from "@/public/residence.png";
+import ziyolilarImg from "@/public/ziyolilar.png";
 
 export const links = [
   {
@@ -63,6 +64,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Ziyolilar",
+    description:
+      "A localized job platform connecting students with part-time, internship, and entry-level opportunities from businesses in their community.",
+    tags: [
+      "NextJs",
+      "Shadcn",
+      "Typescript",
+      "NextIntl",
+      "Tanstack Query",
+      "Zustand",
+      "NextAuth",
+    ],
+    imageUrl: ziyolilarImg,
+  },
+  {
     title: "Bright Gallery",
     description:
       "Developed an e-commerce platform for selling art, featuring secure online payment integration and a user-friendly interface.",
@@ -110,6 +126,11 @@ export const skillsData = [
   "Tailwind",
   "Redux Toolkit",
   "Rtk-query",
+  "Zustand",
+  "Tanstack Query",
+  "Shadcn",
   "Antd",
+  "NextIntl",
+  "NextAuth",
   "Framer Motion",
 ] as const;
