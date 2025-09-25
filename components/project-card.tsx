@@ -1,5 +1,3 @@
-"use client";
-
 import { projectsData } from "@/lib/data";
 import clsx from "clsx";
 import Image from "next/image";
@@ -19,7 +17,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             alt={project.title}
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-110"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
 
           {/* Privacy Overlay for Private Projects */}

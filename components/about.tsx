@@ -32,6 +32,13 @@ export default function About() {
         developer.
       </p>
 
+      <p className="mb-3">
+        I'm also expanding into backend development, working with
+        <span className="font-medium"> Node.js and NestJS</span> to build robust
+        APIs and server-side logic. This full-stack perspective allows me to
+        understand applications from database to deployment.
+      </p>
+
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy reading
         books, watching movies and walking. I also enjoy{" "}
